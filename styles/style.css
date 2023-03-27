@@ -94,5 +94,71 @@
 }
 
 .header-btn:hover {
-    background-color: #a5581a;
+    background-color: #d6711e;
+}
+
+.header-down {
+    margin-top: 203px;
+    margin-left: 10px;
+}
+
+.header-title {
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+}
+
+.header-title__primary {
+    font-size: 80px;
+    font-family: 'Tinos', serif;
+}
+
+.header-subtitle {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 12px;
+}
+
+.header-subtitle::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: -69px;
+}
+
+.header-subtitle::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.header-down__btn {
+    margin-top: 20px;
+}
+
+.header-down__btn a {
+    margin-top: 20px;
+    background-color: #FF7400;
+    padding: 14px 28px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color .2s linear;
+}
+
+.header-down__btn a:hover {
+    background-color: #d6711e;
 }
