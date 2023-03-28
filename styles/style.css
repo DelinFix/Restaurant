@@ -162,3 +162,129 @@
 .header-down__btn a:hover {
     background-color: #d6711e;
 }
+
+/* CARDS */
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center
+}
+
+.card {
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    margin-left: 31px;
+    background-color: #fff;
+    margin-top: -107px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    color: #2C2C2C;
+}
+
+.card-title span {
+    font-family: 'Tinos', serif;
+    color: #BC9060;
+}
+
+.card-desc {
+    color: #656363;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.history {
+    margin-top: 166px;
+}
+
+.history-holder {
+    display: flex;
+    justify-content: space-around;
+}
+
+.history-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    width: 444px;
+    margin-bottom: 20px;
+}
+
+.history-title span {
+    font-family: 'Tinos', serif;
+    color: #BC9060;
+}
+
+.history-desc {
+    color: #656363;
+    width: 455px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.history-number {
+    display: flex;
+    justify-content: space-around;
+    width: 444px;
+}
+
+.number-item {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #BC9060;
+}
+
+.number-item span {
+    margin-top: 5px;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.history-images {
+    position: relative;
+    left: -150px;
+}
+
+.images-1 {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.images-2 {
+    position: absolute;
+    z-index: 100;
+    top: 36px;
+    left: -200px;
+}
+
+.images-3 {
+    position: absolute;
+    z-index: 100;
+    top: 200px;
+    left: 96px;
+}
+
+.history-images__background {
+    height: 164px;
+    width: 212px;
+    position: absolute;
+    background-color: #FFE8D0;
+    left: 100px;
+    top:50px;
+}
