@@ -553,6 +553,29 @@
     display: none;
 }
 
+.block {
+    display: block;
+}
+
+.burger-slide {
+    position: absolute;
+}
+
+.burger-slide .nav-item {
+    margin-left: 0;
+}
+
+
+#burger {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.hide {
+    display: none;
+}
+
 @media (max-width: 1500px) {
     .gallery-content {
         display: block;
